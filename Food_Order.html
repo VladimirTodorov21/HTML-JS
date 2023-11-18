@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<title> Exercise 4 </title>
+		<meta charset="utf-8">
+		<script src="Exercise 4.js"></script>
+	</head>
+	
+	<body>
+		<h3> Order Books Online </h3>
+		<form action="#" onsubmit="return calculateOrder()" method="get">
+			<div style="border:2px solid black; width:400px; height:200px;">
+				<table style="margin-top:10px; margin-left:10px;">
+					<tr>
+						<th> Book </th>
+						<th> Quantity </th>
+						<th> Price </th>
+					</tr>
+					<tr>
+						<td> Basic Web Programming </td>
+						<td> 
+							<input type="text" size="1" name="Web" id="Web">
+						</td>
+						<td> $19.99 </td>
+					</tr>
+					<tr>
+						<td> Intro to PHP </td>
+						<td> 
+							<input type="text" size="1" name="PHP" id="PHP">
+						</td>
+						<td> $86.00 </td>
+					</tr>
+					<tr>
+						<td> Advanced JQuery </td>
+						<td>
+							<input type="text" size="1" name="JQuery" id="JQuery">
+						</td>
+						<td> $55.00 </td>
+					</tr>
+					<tr>
+						<td>
+							<input type="submit" value="Calculate the order" onclick="calculateOrder()" style="margin-top:50px;">
+						</td>
+					</tr>
+				</table>
+			</div>
+			<p id="details"> </p>
+		</form>
+	</body>
+</html>
