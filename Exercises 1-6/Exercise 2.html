@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<!-- Student Name: Vladimir Todorov
+	 Student ID: 40203170
+	 Assignment: 2
+	 Concordia University -->	
+
+<html lang="en">
+	<head>
+		<title> Exercise 2 </title>
+		<meta charset="utf-8">
+		<script>
+			const fruits = ["Banana","Orange","Apple","Mango"];
+			
+			function f1(){
+				document.write(fruits.toString());
+			}
+			
+			function f2(){
+				document.write(fruits.join("&"));
+			}
+			
+			function f3() {
+				for (var i=0;i<fruits.length; i++) {
+					document.write(i + ":" + fruits[i] + "<br/>");
+				}
+			}
+		</script>
+	</head>
+	
+	<body>
+		<h2> Java Script Array </h3>
+		<h3> Print the elements of an array using toString() </h3>
+		<p> 
+			<script type="text/javascript">
+				f1();
+			</script>
+		</p>
+		
+		<h3> Print the elements of an array using join() </h3>
+		<p> 
+			<script type="text/javascript">
+				f2();
+			</script>
+		</p>
+		
+		<h3> Print the elements of an array in the format of index: value </h3>
+		<p> 
+			<script type="text/javascript">
+				f3();
+			</script>
+		</p>
+	</body>
+</html>
